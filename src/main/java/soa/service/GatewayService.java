@@ -18,7 +18,9 @@ public class GatewayService {
 	    "CARTSERVICE", System.getenv("CARTSERVICE_URL"),
 	    "PRODUCTSERVICE", System.getenv("PRODUCTSERVICE_URL")
 	);
-
+    
+    
+    
     public GatewayService(DiscoveryClient DC) {
         this.DC = DC;
     }
